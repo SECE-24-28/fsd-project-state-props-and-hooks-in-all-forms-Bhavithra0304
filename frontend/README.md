@@ -122,28 +122,6 @@ src/
 
 ---
 
-## 🔐 Authentication
-
-### Regular User
-
-| Step        | Details                                               |
-|-------------|-------------------------------------------------------|
-| Register    | Go to `/register`, fill the form, submit              |
-| Login       | Go to `/login`, enter credentials                     |
-| Remember Me | Checked → `localStorage` / Unchecked → `sessionStorage` |
-| After Login | Redirected to `/appointment`, name shown in Header    |
-| Logout      | Click user dropdown → Logout → clears storage         |
-
-### Admin Login
-
-
-| Field    | Value                      |
-|----------|----------------------------|
-| Email    | `admin@healthnest.com`     |
-| Password | `Admin@123`                |
-| Redirect | `/admin` (Admin Dashboard) |
-
----
 
 ## 👨‍💼 Admin Panel
 
